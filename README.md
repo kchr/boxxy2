@@ -14,7 +14,8 @@ Features
 * Custom gallery title
 * Responsive thumbnail disposition
 * Fancy opacity shading effect on hover
-* Six different layouts (varying no. of columns)
+* Six different layouts (choose no. of columns)
+* Adapting to small screens (forcing fewer columns) 
 
 Requirements
 ------------
@@ -55,7 +56,7 @@ Usage
       -o OUTPUT, --output OUTPUT
                             Output directory (required)
       -t TITLE, --title TITLE
-                            Title for the output index page (default "boxxy2")
+                            Title for the output index page (default "gallery")
       -s SIZE, --size SIZE  Thumbnail width/height (default 256)
       -c {2,3,4,6,8,12}, --cols {2,3,4,6,8,12}
                             Columns on index page (default 8)
