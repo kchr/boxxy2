@@ -22,7 +22,7 @@ parser.add_argument('-f', '--force', action="store_true",
 parser.add_argument('-o', '--output', type=str, required=True,
                     help='Output directory (required)')
 parser.add_argument('-t', '--title', type=str,
-                    help='Title for the output index page (default "boxxy2")')
+                    help='Title for the output index page (default "gallery")')
 parser.add_argument('-s', '--size', type=int,
                     help='Thumbnail width/height (default 256)')
 parser.add_argument('-c', '--cols', type=int, choices=[2, 3, 4, 6, 8, 12],
@@ -38,7 +38,7 @@ tpl_list = env.get_template('list.html')
 tpl_list_images = []
 
 out_dir = args.output or 'www'
-out_title = args.title or 'boxxy2'
+out_title = args.title or 'gallery'
 out_size = args.size or 256
 out_cols = args.cols or 8
 out_force = args.force or False
