@@ -1,7 +1,7 @@
 boxxy2
 ======
 
-Python port of static image gallery script **boxxy.pl**.
+boxxy^2^ is a python port of the static image gallery script **boxxy.pl**.
 
 Output is HTML and CSS only, no scripts.
 
