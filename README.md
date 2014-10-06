@@ -32,6 +32,12 @@ Installation
 or
 
     $ pip install pillow jinja2
+    
+or with PIL instead of pillow:
+
+    $ pip install --allow-external PIL --allow-unverified PIL PIL jinja2
+
+These extra options (--allow-...) are required on Debian (testing) as of 2014-10-06.
 
 Usage
 -----
