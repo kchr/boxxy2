@@ -1,3 +1,8 @@
-boxxy2 is written and maintained by:
+Written and maintained by:
 
-- Kim Christensen <kchr@technopragmatics.org>
+* Kim Christensen <kchr@technopragmatics.org>
+
+Thank you and credits to:
+
+* Jonathan Walck, for writing boxxy.pl
+* Ali Jafarian, for ideas on CSS grid layout
