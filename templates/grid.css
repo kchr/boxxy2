@@ -1,0 +1,100 @@
+ul.rig {
+    list-style: none;
+    font-size: 0px;
+    margin-left: 0%; /* should match li left margin */
+    padding: 0px;
+}
+
+ul.rig li {
+    display: inline-block;
+    /*padding: 10px;*/
+    padding: 0px;
+    /*margin: 0 0 0% 2.5%;*/
+    margin: 0 0 0% 0%;
+    margin: 0 0 0% 0%;
+    background: #fff;
+    /*border: 1px solid #ddd;*/
+    border: 0px;
+    font-size: 0px;
+    /*font-size: 16px;*/
+    /*font-size: 1rem;*/
+    font-size: 0px;
+    vertical-align: top;
+    overflow: hidden;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+ul.rig li img {
+    max-width: 100%;
+    height: auto;
+    /*max-width: none;*/
+    /*max-height: 80px;*/
+    /*margin: 0 0 10px;*/
+    margin: 0 0 0px;
+    /*clip: rect(0px,80px,80px,0px);*/
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+ul.rig li img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+ul.rig li h3 {
+    /*margin: 0 0 5px;*/
+    margin: 0 0 0px;
+}
+
+ul.rig li p {
+    font-size: .9em;
+    line-height: 1.5em;
+    color: #999;
+}
+
+/* class for 2 columns */
+ul.rig.columns-2 li {
+    width: 50%;
+}
+/* class for 3 columns */
+ul.rig.columns-3 li {
+    width: 33%;
+}
+/* class for 4 columns */
+ul.rig.columns-4 li {
+    width: 25%;
+}
+/* class for 6 columns */
+ul.rig.columns-6 li {
+    width: 16.66%;
+}
+/* class for 8 columns */
+ul.rig.columns-8 li {
+    width: 12.5%;
+}
+/* class for 12 columns */
+ul.rig.columns-12 li {
+    width: 8.33%;
+}
+     
+@media (max-width: 480px) {
+    ul.grid-nav li {
+        display: block;
+        margin: 0 0 0px;
+    }
+
+    ul.grid-nav li a {
+        display: block;
+    }
+
+    ul.rig {
+        margin-left: 0;
+    }
+
+    ul.rig li {
+        width: 100% !important; /* over-ride all li styles */
+        margin: 0 0 0px;
+    }
+}
