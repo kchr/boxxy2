@@ -79,7 +79,7 @@ ul.rig.columns-12 li {
     width: 8.33%;
 }
      
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
     ul.grid-nav li {
         display: block;
         margin: 0 0 0px;
@@ -95,6 +95,21 @@ ul.rig.columns-12 li {
 
     ul.rig li {
         width: 100% !important; /* over-ride all li styles */
+        margin: 0 0 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    ul.grid-nav li {
+        margin: 0 0 0px;
+    }
+
+    ul.rig {
+        margin-left: 0;
+    }
+
+    ul.rig li {
+        width: 25% !important; /* over-ride all li styles */
         margin: 0 0 0px;
     }
 }
