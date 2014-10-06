@@ -65,8 +65,7 @@ def wdir(files, dirname, names):
         if os.path.isdir(f):
             pass
         elif os.path.isfile(f):
-            fn = os.path.basename(f)
-            if not fn in files:
+            if not f in files:
                 files.append(f)
         else:
             print 'Unknown file: %s' % f
