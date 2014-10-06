@@ -53,3 +53,13 @@ Usage
       -s SIZE, --size SIZE  Thumbnail width/height (default 256)
       -c {2,3,4,6,8,12}, --cols {2,3,4,6,8,12}
                             Columns on index page (default 8)
+
+    $ ./boxxy2.py -o ~/public_html/cats -t cats -c 6 ~/pics/cats
+    [*] Created output directory: /home/user/public_html/cats
+    [*] Created output directory: /home/user/public_html/cats/thumbs
+    [*] Creating gallery 'cats' in /home/user/public_html/cats (47 files)...
+    [*] Creating thumbnails (256x256)...
+    [*] Rendering 6-column view from template...
+    [*] Copied media asset: style.css
+    [*] Copied media asset: grid.css
+    [*] Wrote index file: /home/user/public_html/cats/index.html
