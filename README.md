@@ -1,7 +1,7 @@
-boxxy2
-======
+boxxy<sup>2</sup>
+=================
 
-boxxy^2^ is a python port of the static image gallery script **boxxy.pl**.
+A python port of the static image gallery script **boxxy.pl**.
 
 Output is HTML and CSS only, no scripts.
 
