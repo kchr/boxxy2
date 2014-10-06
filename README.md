@@ -22,7 +22,7 @@ Requirements
 * pillow (or PIL)
 * jinja2
 
-You can use **PIL** (_Python Imaging Library_) instead of Pillow, if you need to.
+You can use PIL (_Python Imaging Library_) instead of pillow, if you need to.
 
 Installation
 ------------
@@ -41,7 +41,7 @@ Usage
                      SOURCE [SOURCE ...]
     
     positional arguments:
-        SOURCE                Directories and/or filenames to include
+      SOURCE                Directories and/or filenames to include
 
     optional arguments:
       -h, --help            show this help message and exit
