@@ -37,3 +37,19 @@ Usage
 -----
 
     $ ./boxxy2.py -h
+    usage: boxxy2.py [-h] [-f] -o OUTPUT [-t TITLE] [-s SIZE] [-c {2,3,4,6,8,12}]
+                     SOURCE [SOURCE ...]
+    
+    positional arguments:
+        SOURCE                Directories and/or filenames to include
+
+    optional arguments:
+      -h, --help            show this help message and exit
+      -f, --force           Force overwrite of existing files
+      -o OUTPUT, --output OUTPUT
+                            Output directory (required)
+      -t TITLE, --title TITLE
+                            Title for the output index page (default "boxxy2")
+      -s SIZE, --size SIZE  Thumbnail width/height (default 256)
+      -c {2,3,4,6,8,12}, --cols {2,3,4,6,8,12}
+                            Columns on index page (default 8)
